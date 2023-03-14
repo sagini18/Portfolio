@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./Header.css";
+
 const Header = () => {
   const [Toggle, showMenu] = useState(false);
   return (
@@ -32,8 +33,8 @@ const Header = () => {
               </a>
             </li>
             <li className="nav_item">
-              <a href="#portfolio" className="nav_link">
-                <i className="uil uil-scenery nav_icon"></i>Portfolio
+              <a href="#qualification" className="nav_link">
+                <i className="uil uil-scenery nav_icon"></i> Qualification
               </a>
             </li>
             <li className="nav_item">
