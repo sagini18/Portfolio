@@ -3,7 +3,7 @@
 }
 .home_content {
   grid-template-columns: 116px repeat(2, 1fr);
-  padding: 5.5rem;
+  padding: 0rem 5.5rem 5.5rem;
   column-gap: 2rem;
   align-items: center;
 }
@@ -24,9 +24,10 @@
   margin-bottom: var(--mb-0-25);
 }
 .home_hand {
+  visibility: visible;
   width: 30px;
   height: 30px;
-  margin-left: 0.4rem;
+  margin-left: 0.5rem;
 }
 .home_subtitle {
   position: relative;
@@ -46,7 +47,8 @@
 }
 .home_description {
   max-width: 400px;
-  margin-bottom: var(--mb-3);
+  line-height: 1.9rem;
+  margin-bottom: var(--mb-2-5);
 }
 .msg-button {
   margin-left: 10px;
@@ -127,6 +129,7 @@
     margin-left: 7.5rem;
   }
   .home_hand {
+    visibility: visible;
     width: 26px;
     height: 26px;
   }
@@ -153,6 +156,11 @@
   .home_scroll {
     display: none;
   }
+  .home_hand {
+    visibility: visible;
+    width: 22px;
+    height: 22px;
+  }
 }
 
 /* For small devices */
@@ -163,6 +171,7 @@
     height: 180px;
   }
   .home_hand {
+    visibility: hidden;
     width: 22px;
     height: 22px;
   }

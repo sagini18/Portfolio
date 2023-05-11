@@ -9,7 +9,7 @@ const Data = () => {
           viewBox="0 0 48 48"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          class="home__hand"
+          className="home_hand"
         >
           <path
             d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
@@ -55,8 +55,9 @@ const Data = () => {
       </h1>
       <h3 className="home_subtitle">Undergraduate</h3>
       <p className="home_description">
-        I'm an undergraduate at University of Moratuwa, and I'm very passionate
-        and dedicated to my work
+        I am a passionate and dedicated IT enthusiast with a keen interest in
+        combining technology with management practices. Currently, I am pursuing
+        my undergraduate degree in IT and Management at University of Moratuwa.
       </p>
       <a href="#contact" className="button button--flex">
         Say hello

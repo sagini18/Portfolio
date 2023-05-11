@@ -1,24 +1,30 @@
 import "./about.css";
 import AboutImg from "../../assests/about.png";
-import CV from "../../assests/John-Cv.pdf";
+import CV from "../../assests/Sagini_Navartnam_CV.pdf";
 import Info from "./info";
 
 const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section_title">About me</h2>
-      <span className="section_subtitle">My introduction</span>
+      <span className="section_subtitle">Introducing myself</span>
 
       <div className="about_container container grid">
         <img src={AboutImg} alt="" className="about_img" />
         <div className="about_data">
           <Info />
           <p className="about_description">
-            MERN stack developer, I created web pages with UI / UX interface,
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            consequatur officia molestias blanditiis, placeat optio voluptas
-            asperiores magnam modi ea ullam ipsa dignissimos, similique, et
-            nobis. Ipsa neque nam et.
+            <ul style={{ listStyleType: "circle" }}>
+              <li>
+                In my first year, I worked on a hardware project: An anti-sleep
+                alarm and alcohol and flame detector.
+              </li>
+              <li>
+                In my second year, I honed my web development skills by creating
+                user-friendly interfaces for the New Employee Training System
+                (NETS) using the MERN stack.
+              </li>
+            </ul>
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV

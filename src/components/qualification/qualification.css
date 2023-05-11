@@ -81,6 +81,10 @@
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
+  .school {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 @media screen and (max-width: 576px) {
   .qualification_sections {

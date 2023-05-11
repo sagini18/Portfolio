@@ -25,17 +25,16 @@ const Footer = () => {
           </li>
         </ul>
         <div className="footer_social">
-          <a href="" className="footer_social-link">
+          <a href="https://www.facebook.com" className="footer_social-link">
             <i class="bx bxl-facebook"></i>
           </a>
-          <a href="" className="footer_social-link" target="_blank">
-            <i class="bx bxl-instagram"></i>
-          </a>
           <a
-            href="https://twitter.com/sagini_n"
-            target="_blank"
+            href="https://www.instagram.com/sagini_n_/"
             className="footer_social-link"
           >
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="https://twitter.com/sagini_n" className="footer_social-link">
             <i class="bx bxl-twitter"></i>
           </a>
         </div>

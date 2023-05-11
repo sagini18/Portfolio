@@ -72,46 +72,29 @@ const Qualification = () => {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="qualification_title">Art Director</h3>
-                <span className="qualification_subtitle">
-                  University of Moratuwa
-                </span>
+                <h3 className="qualification_title">Diploma in English</h3>
+                <span className="qualification_subtitle">British Way</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - Present
+                  <i className="uil uil-calendar-alt"></i>2019 Sep - Nov
                 </div>
               </div>
             </div>
 
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Web Development </h3>
+                <h3 className="qualification_title school">
+                  GCE <span>(O/L and A/L)</span>
+                </h3>
                 <span className="qualification_subtitle">
-                  University of Moratuwa
+                  J/Holy Family Convent National School
                 </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - Present
+                  <i className="uil uil-calendar-alt"></i>2006 - 2019
                 </div>
               </div>
               <div>
                 <span className="qualification_rounder"></span>
                 <span className="qualification_line"></span>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div></div>
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-              <div>
-                <h3 className="qualification_title">Ux Expert</h3>
-                <span className="qualification_subtitle">
-                  University of Moratuwa
-                </span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - Present
-                </div>
               </div>
             </div>
           </div>
@@ -125,10 +108,14 @@ const Qualification = () => {
           >
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Product Designer </h3>
-                <span className="qualification_subtitle">MicroSoft </span>
+                <h3 className="qualification_title">
+                  Member of IEEE Student Branch
+                </h3>
+                <span className="qualification_subtitle">
+                  University of Moratuwa
+                </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - Present
+                  <i className="uil uil-calendar-alt"></i>2023 - Present
                 </div>
               </div>
               <div>
@@ -144,25 +131,78 @@ const Qualification = () => {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="qualification_title">Ux Designer</h3>
-                <span className="qualification_subtitle">Apple Inc</span>
+                <h3 className="qualification_title"> Intern</h3>
+                <span className="qualification_subtitle">
+                  Stanley road Peoples' bank
+                </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - Present
+                  <i className="uil uil-calendar-alt"></i>2021 Jan - Nov
                 </div>
               </div>
             </div>
 
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Web Designer </h3>
-                <span className="qualification_subtitle">Figma -Spain </span>
+                <h3 className="qualification_title">
+                  President of Commerce Union
+                </h3>
+                <span className="qualification_subtitle">
+                  J/Holy Family Convent National School
+                </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2018 - 2019
                 </div>
               </div>
               <div>
                 <span className="qualification_rounder"></span>
                 <span className="qualification_line"></span>
+              </div>
+            </div>
+            <div className="qualification_data">
+              <div></div>
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+              <div>
+                <h3 className="qualification_title">Treasurer of A/L Union</h3>
+                <span className="qualification_subtitle">
+                  J/Holy Family Convent National School
+                </span>
+                <div className="qualification_calender">
+                  <i className="uil uil-calendar-alt"></i>2021 Jan - Nov
+                </div>
+              </div>
+            </div>
+            <div className="qualification_data">
+              <div>
+                <h3 className="qualification_title">Member of English Union</h3>
+                <span className="qualification_subtitle">
+                  J/Holy Family Convent National School
+                </span>
+                <div className="qualification_calender">
+                  <i className="uil uil-calendar-alt"></i> 2018 - 2019
+                </div>
+              </div>
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+            </div>
+            <div className="qualification_data">
+              <div></div>
+              <div>
+                <span className="qualification_rounder"></span>
+                <span className="qualification_line"></span>
+              </div>
+              <div>
+                <h3 className="qualification_title">Girl Guide</h3>
+                <span className="qualification_subtitle">
+                  Sri Lanka Girl Guides Association
+                </span>
+                <div className="qualification_calender">
+                  <i className="uil uil-calendar-alt"></i>2012-2016
+                </div>
               </div>
             </div>
           </div>

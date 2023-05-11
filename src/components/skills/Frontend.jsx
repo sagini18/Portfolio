@@ -8,7 +8,7 @@ const Forntend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills_name">HTML</h3>
-              <span className="skills_level">Basic</span>
+              <span className="skills_level">Advanced</span>
             </div>
           </div>
           <div className="skills_data">
@@ -22,7 +22,7 @@ const Forntend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills_name">Javascript</h3>
-              <span className="skills_level">Intermediate</span>
+              <span className="skills_level">Advanced</span>
             </div>
           </div>
         </div>
@@ -44,8 +44,8 @@ const Forntend = () => {
           <div className="skills_data">
             <i class="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills_name">React</h3>
-              <span className="skills_level">Intermediate</span>
+              <h3 className="skills_name">React.js</h3>
+              <span className="skills_level">Advanced</span>
             </div>
           </div>
         </div>
