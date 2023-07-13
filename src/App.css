@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 :root {
   --header-height: 3rem;
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --hue: 255;
+  --sat: 95%;
+  --title-color: hsl(var(--hue), var(--sat), 30%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 18%);
+  --title-color-light: hsl(var(--hue), var(--sat), 88%);
+  --title-color-lite: hsl(var(--hue), var(--sat), 70%);
+  --text-color: #110164ca;
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   --body-font: "Poppins", sans-serif;
@@ -90,14 +92,14 @@ img {
 }
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--title-color-dark);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: var(--title-color);
 }
 .button_icon {
   margin-left: var(--mb-0-5);

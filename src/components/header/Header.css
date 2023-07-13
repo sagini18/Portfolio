@@ -39,7 +39,7 @@
 
 .active-link,
 .nav_link:hover {
-  color: var(--title-color-dark);
+  color: var(--title-color);
 }
 
 .scroll-header {
